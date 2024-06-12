@@ -4,7 +4,8 @@ import MainContainer, { Component } from './MainContainer';
 
 const App = () => {
   return (
-    <div>
+    <div className='App'>
+      {Logo}
       <Logo />
       <MainContainer />
     </div>

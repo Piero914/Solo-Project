@@ -16,6 +16,7 @@ import store from './store';
 const root = createRoot(document.getElementById('contents'));
 root.render(
   <Provider store={store}>
+    <h1>This is the root.render</p>
     <App />
   </Provider>
 );

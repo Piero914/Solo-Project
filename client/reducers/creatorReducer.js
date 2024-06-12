@@ -4,7 +4,9 @@
 // import CHANGE_EYES from '../constants/actionTypes';
 // import CHANGE_NOSE from '../constants/actionTypes';
 // import CHANGE_MOUTH from '../constants/actionTypes';
-
+import React from 'react';
+import { Provider } from 'react-redux';
+import store from '../store';
 import * as myObject from '../constants/actionTypes';
 
 console.log(myObject);
