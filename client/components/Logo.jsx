@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
-import Logo, { Component } from './Logo';
-import MainContainer, { Component } from './MainContainer';
+import React from 'react';
+import { MainContainer } from './MainContainer.jsx';
 
 const Logo = () => {
   return (

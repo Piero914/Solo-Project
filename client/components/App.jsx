@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import Logo, { Component } from './Logo';
-import MainContainer, { Component } from './MainContainer';
+import React from 'react';
+import { Logo } from './Logo.jsx';
+import { MainContainer } from './MainContainer.jsx';
 
 const App = () => {
   return (
     <div className='App'>
       Anything really
-      {/* <Logo />
-      <MainContainer /> */}
+      <Logo />
+      <MainContainer />
     </div>
   );
 };

@@ -15,7 +15,7 @@ export default {
     rules: [
       {
         test: /\.jsx?/,
-        exclude: [/node_modules/, path.resolve('./build/index.html')],
+        exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
           options: {
