@@ -12,16 +12,15 @@ My initial idea:
 
 - This is where the magic happens. The user will see a blank head. They will modify the head with the following fields:
 
-1. Skin color
+1. Skin color (MAYBE)
 2. Hair Style
-3. Hair color
-4. Eyebrows
-5. Eyebrow color
-6. Eye shape
-7. Eye color
-8. Nose
-9. Mouth
-10. Facial hair (stretch goals) (Let's be real. There are going to be a lot of stretch goals. I have less than 2 days to get this done.)
+3. Eyebrows
+4. Eyebrow color
+5. Eye shape
+6. Eye color
+7. Nose
+8. Mouth
+9. Facial hair (stretch goals) (Let's be real. There are going to be a lot of stretch goals. I have less than 2 days to get this done.)
 
 We will need to store many png assets and definitely work on our HTML and CSS.
 
