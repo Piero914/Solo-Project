@@ -5,9 +5,9 @@ import MainContainer, { Component } from './MainContainer';
 const App = () => {
   return (
     <div className='App'>
-      {Logo}
-      <Logo />
-      <MainContainer />
+      Anything really
+      {/* <Logo />
+      <MainContainer /> */}
     </div>
   );
 };

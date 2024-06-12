@@ -4,12 +4,12 @@
 // import CHANGE_EYES from '../constants/actionTypes';
 // import CHANGE_NOSE from '../constants/actionTypes';
 // import CHANGE_MOUTH from '../constants/actionTypes';
-import React from 'react';
-import { Provider } from 'react-redux';
-import store from '../store';
-import * as myObject from '../constants/actionTypes';
+// import React from 'react';
+// import { Provider } from 'react-redux';
+// // import store from '../store';
+import * as types from '../constants/actionTypes.js';
 
-console.log(myObject);
+console.log(types);
 
 const initialState = {
   hair: 'blank',
