@@ -9,7 +9,7 @@
 // // import store from '../store';
 import * as types from '../constants/actionTypes.js';
 
-console.log(types);
+console.log('Made it to the creatorReducer');
 
 const initialState = {
   hair: 'blank',
@@ -20,11 +20,11 @@ const initialState = {
 };
 
 const data = {
-  hair: [],
-  eyebrows: [],
-  eyes: [],
-  nose: [],
-  mouth: [],
+  hair: ['blank', 'afro', 'straight'],
+  eyebrows: ['blank', 'bushy', 'regular'],
+  eyes: ['blank', 'round', 'sharp'],
+  nose: ['blank', 'long', 'short'],
+  mouth: ['blank', 'small', 'big'],
 };
 
 console.log(data);

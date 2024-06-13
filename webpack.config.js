@@ -7,10 +7,11 @@ const __dirname = dirname(__filename);
 export default {
   entry: './client/index.js',
   output: {
-    path: path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, './build'),
     filename: 'bundle.js',
   },
   mode: 'development',
+  // devtool: false,
   module: {
     rules: [
       {
@@ -19,10 +20,7 @@ export default {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: [
-              ['@babel/preset-env', { targets: 'defaults' }],
-              ['@babel/preset-react', { targets: 'defaults' }],
-            ],
+            presets: ['@babel/preset-env', '@babel/preset-react'],
           },
         },
       },
@@ -34,12 +32,13 @@ export default {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './build/index.html',
+      template: './index.html',
     }),
   ],
   devServer: {
     static: {
-      directory: path.join(__dirname, 'client'),
+      publicPath: './build',
+      directory: path.resolve(__dirname, 'build'),
     },
   },
 };
